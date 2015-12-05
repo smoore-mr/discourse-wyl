@@ -1,5 +1,5 @@
 <a href="{{post.usernameUrl}}" classNames="trigger-user-card {{classNames}}" data-user-card="{{post.username}}">
-  {{#unless post.controller.site.mobileView}}
+  {{#unless Discourse.Mobile.isMobileDevice}}
     {{avatar post imageSize="70"}}
   {{else}}
     {{avatar post imageSize="large"}}
