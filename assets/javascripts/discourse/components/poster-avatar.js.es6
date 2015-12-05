@@ -11,7 +11,7 @@ export default Ember.Component.extend({
   },
 
   render: function(buffer) {
-    var avatar = Handlebars.helpers.avatar(this.get('post'), {hash: {imageSize: 'huge'}});
+    var avatar = Handlebars.helpers.avatar(this.get('post'), {hash: {imageSize: '70'}});
     buffer.push(avatar);
   }
 });
