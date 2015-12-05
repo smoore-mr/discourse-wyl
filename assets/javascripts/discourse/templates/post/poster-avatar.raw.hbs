@@ -1,3 +1,7 @@
 <a href="{{post.usernameUrl}}" classNames="trigger-user-card {{classNames}}" data-user-card="{{post.username}}">
-  {{avatar post imageSize="70"}}
+  {{#unless post.controller.site.mobileView}}
+    {{avatar post imageSize="70"}}
+  {{else}
+    {{avatar post imageSize="large"}}
+  {{/unless}}
 </a>
