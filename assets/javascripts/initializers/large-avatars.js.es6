@@ -6,7 +6,7 @@ export default {
 
     var isMobile = Discourse.Mobile.isMobileDevice;
 
-    var size = isMobile ? 'large' : 'huge';
+    var size = isMobile ? 'large' : '70';
 
     PosterAvatarComponent.reopen({
       render: function(buffer) {
