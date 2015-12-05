@@ -4,4 +4,3 @@
 # authors: Jacob Chapel
 
 register_asset "javascripts/discourse/templates/post/poster-avatar.raw.hbs"
-register_asset "javascripts/discourse/templates/mobile/post/poster-avatar.raw.hbs"
